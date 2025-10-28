@@ -1,0 +1,40 @@
+h1, h2, h3, h4{
+    margin-top: 14px;
+}
+header, article, footer, nav{
+    border-style: solid; background-color: rgba(0, 0, 0, 0.4); padding: 20px;
+}
+header, footer{
+    width: 100%;
+    margin-bottom: 7px;
+    text-align: center;
+}
+article{
+    width: 60%; text-align: left;
+}
+nav{
+    margin: auto; 
+    text-align: left; 
+    padding: 1px; 
+    width: 100%; /*i dont know why its floating to the left and isnt 100% of what it should*/
+}
+button{
+    border-style: none; border-radius: 5px; height: 31px; padding: 7px;
+}
+#webcontent{
+    width: 80%; margin: auto;
+}
+section{
+    margin: 0; /* removes default body spacing */
+  display: flex; /* puts elements side by side */
+  width: 100%;
+  margin: auto;
+}
+#leftside, #rightside{
+    width: 20%; 
+    border-style: solid; 
+    background-color: rgba(0, 0, 0, 0.4)
+}
+* {
+box-sizing: border-box; /*i dont understand this but it works for fixing the uncentered*/
+}
