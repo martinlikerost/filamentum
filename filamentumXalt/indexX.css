@@ -6,35 +6,55 @@ header, article, footer, nav{
 }
 header, footer{
     width: 100%;
-    margin-bottom: 7px;
+    height: 10%;
+    margin-bottom: 0px;
     text-align: center;
 }
+header{
+    border-top-left-radius: 30px; border-top-right-radius: 30px;
+}
+footer{
+    border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;
+}
 article{
-    width: 60%; text-align: left;
+    width: 70%; text-align: left;
 }
 nav{
     margin: auto; 
-    text-align: left; 
+    text-align: center; 
     padding: 1px; 
-    width: 100%; /*i dont know why its floating to the left and isnt 100% of what it should*/
+    width: 60%; /*i dont know why its floating to the left and isnt 100% of what it should*/
 }
 button{
-    border-style: none; border-radius: 5px; height: 31px; padding: 7px;
+    border-radius: 5px; height: 31px;
 }
 #webcontent{
-    width: 80%; margin: auto;
+    width: 60%; margin: auto; margin-top: 20px;
 }
 section{
     margin: 0; /* removes default body spacing */
   display: flex; /* puts elements side by side */
   width: 100%;
   margin: auto;
+  height: 80%;
 }
-#leftside, #rightside{
-    width: 20%; 
+aside{
+    width: 15%; 
     border-style: solid; 
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.4); background-image: url(../pictures/backgroundsprite.png);
 }
 * {
 box-sizing: border-box; /*i dont understand this but it works for fixing the uncentered*/
+}
+#navbtns{
+    width: 90%; border-style: double; padding: 0px; margin: auto;
+}
+.navbtn{
+    width: 100%; padding: 1px; border-radius: 5px; background-color: rgb(247, 184, 1);
+}
+.navbtn :hover{
+    width: 100%; padding: 1px; border-radius: 5px; background-color: rgb( 243, 91, 4);
+}
+#navbtns p{
+    margin: 0; text-align: center;
 }
